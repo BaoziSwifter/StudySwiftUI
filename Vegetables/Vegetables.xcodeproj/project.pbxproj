@@ -28,6 +28,7 @@
 		00F2094A2793CEA20049623E /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableModel.swift; sourceTree = "<group>"; };
 		00F2094D2793CF090049623E /* VegetableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCardView.swift; sourceTree = "<group>"; };
 		00F2094F2793D0D80049623E /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		00FA7B2727B8AEA9001506C0 /* Vegetables.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vegetables.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		00F209362793CD4F0049623E /* Vegetables */ = {
 			isa = PBXGroup;
 			children = (
+				00FA7B2727B8AEA9001506C0 /* Vegetables.entitlements */,
 				00F2094C2793CEF40049623E /* View */,
 				00F209492793CE7D0049623E /* Model */,
 				00F209462793CE3F0049623E /* Data */,
@@ -307,8 +309,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vegetables/Vegetables.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Vegetables/Preview Content\"";
+				DEVELOPMENT_TEAM = UKD3UY9KY7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Vegetables/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -318,8 +322,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlf.Vegetables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -328,8 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vegetables/Vegetables.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Vegetables/Preview Content\"";
+				DEVELOPMENT_TEAM = UKD3UY9KY7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Vegetables/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -339,8 +346,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlf.Vegetables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};

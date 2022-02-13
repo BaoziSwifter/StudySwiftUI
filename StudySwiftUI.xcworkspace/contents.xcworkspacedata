@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:StudySwiftCard/../LoveToWrite/LoveToWrite.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Vegetables/Vegetables.xcodeproj">
    </FileRef>
    <FileRef

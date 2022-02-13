@@ -62,6 +62,7 @@
 		00F20925279310D50049623E /* HutongRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongRankingView.swift; sourceTree = "<group>"; };
 		00F20927279310E70049623E /* HutongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongModel.swift; sourceTree = "<group>"; };
 		00F20929279310F80049623E /* HutongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongData.swift; sourceTree = "<group>"; };
+		00FA7B2827B8B12B001506C0 /* ThisIsBejing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThisIsBejing.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		00F208ED27927C030049623E /* ThisIsBejing */ = {
 			isa = PBXGroup;
 			children = (
+				00FA7B2827B8B12B001506C0 /* ThisIsBejing.entitlements */,
 				00F20902279288670049623E /* App */,
 				00F209012792885F0049623E /* View */,
 				00F20900279288570049623E /* Model */,
@@ -383,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThisIsBejing/ThisIsBejing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ThisIsBejing/Preview Content\"";
 				DEVELOPMENT_TEAM = UKD3UY9KY7;
@@ -395,6 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlf.ThisIsBejing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -405,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThisIsBejing/ThisIsBejing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ThisIsBejing/Preview Content\"";
 				DEVELOPMENT_TEAM = UKD3UY9KY7;
@@ -417,6 +422,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlf.ThisIsBejing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
