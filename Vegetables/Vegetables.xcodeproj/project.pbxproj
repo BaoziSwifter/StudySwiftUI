@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F1230D27B93F0800FC296E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1230C27B93F0800FC296E /* OnboardingView.swift */; };
+		00F1230F27B9441E00FC296E /* VegetableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1230E27B9441E00FC296E /* VegetableRowView.swift */; };
+		00F1231127B946DB00FC296E /* VegetableDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1231027B946DB00FC296E /* VegetableDetailView.swift */; };
+		00F1231327B948F500FC296E /* VegetableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1231227B948F500FC296E /* VegetableHeaderView.swift */; };
+		00F1231527B94D3500FC296E /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1231427B94D3500FC296E /* SourceLinkView.swift */; };
+		00F1231727B94E5300FC296E /* VegetableClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1231627B94E5300FC296E /* VegetableClassificationView.swift */; };
 		00F209382793CD4F0049623E /* VegetablesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F209372793CD4F0049623E /* VegetablesApp.swift */; };
 		00F2093A2793CD4F0049623E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F209392793CD4F0049623E /* ContentView.swift */; };
 		00F2093C2793CD520049623E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F2093B2793CD520049623E /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F1230C27B93F0800FC296E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		00F1230E27B9441E00FC296E /* VegetableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableRowView.swift; sourceTree = "<group>"; };
+		00F1231027B946DB00FC296E /* VegetableDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailView.swift; sourceTree = "<group>"; };
+		00F1231227B948F500FC296E /* VegetableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableHeaderView.swift; sourceTree = "<group>"; };
+		00F1231427B94D3500FC296E /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		00F1231627B94E5300FC296E /* VegetableClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableClassificationView.swift; sourceTree = "<group>"; };
 		00F209342793CD4F0049623E /* Vegetables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vegetables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F209372793CD4F0049623E /* VegetablesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetablesApp.swift; sourceTree = "<group>"; };
 		00F209392793CD4F0049623E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +40,6 @@
 		00F2094A2793CEA20049623E /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableModel.swift; sourceTree = "<group>"; };
 		00F2094D2793CF090049623E /* VegetableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCardView.swift; sourceTree = "<group>"; };
 		00F2094F2793D0D80049623E /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
-		00FA7B2727B8AEA9001506C0 /* Vegetables.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vegetables.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F1230B27B93BB200FC296E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				00F209372793CD4F0049623E /* VegetablesApp.swift */,
+				00F209392793CD4F0049623E /* ContentView.swift */,
+				00F1230C27B93F0800FC296E /* OnboardingView.swift */,
+				00F1231027B946DB00FC296E /* VegetableDetailView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		00F2092B2793CD4F0049623E = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +83,10 @@
 		00F209362793CD4F0049623E /* Vegetables */ = {
 			isa = PBXGroup;
 			children = (
-				00FA7B2727B8AEA9001506C0 /* Vegetables.entitlements */,
 				00F2094C2793CEF40049623E /* View */,
 				00F209492793CE7D0049623E /* Model */,
 				00F209462793CE3F0049623E /* Data */,
-				00F209372793CD4F0049623E /* VegetablesApp.swift */,
-				00F209392793CD4F0049623E /* ContentView.swift */,
+				00F1230B27B93BB200FC296E /* App */,
 				00F2093B2793CD520049623E /* Assets.xcassets */,
 				00F209402793CD520049623E /* Info.plist */,
 				00F2093D2793CD520049623E /* Preview Content */,
@@ -103,6 +123,10 @@
 			children = (
 				00F2094D2793CF090049623E /* VegetableCardView.swift */,
 				00F2094F2793D0D80049623E /* StartButtonView.swift */,
+				00F1230E27B9441E00FC296E /* VegetableRowView.swift */,
+				00F1231227B948F500FC296E /* VegetableHeaderView.swift */,
+				00F1231427B94D3500FC296E /* SourceLinkView.swift */,
+				00F1231627B94E5300FC296E /* VegetableClassificationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,11 +201,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F209482793CE600049623E /* VegetablesData.swift in Sources */,
+				00F1231527B94D3500FC296E /* SourceLinkView.swift in Sources */,
 				00F2093A2793CD4F0049623E /* ContentView.swift in Sources */,
 				00F209382793CD4F0049623E /* VegetablesApp.swift in Sources */,
+				00F1230F27B9441E00FC296E /* VegetableRowView.swift in Sources */,
 				00F209502793D0D80049623E /* StartButtonView.swift in Sources */,
 				00F2094B2793CEA20049623E /* VegetableModel.swift in Sources */,
 				00F2094E2793CF090049623E /* VegetableCardView.swift in Sources */,
+				00F1231327B948F500FC296E /* VegetableHeaderView.swift in Sources */,
+				00F1231127B946DB00FC296E /* VegetableDetailView.swift in Sources */,
+				00F1231727B94E5300FC296E /* VegetableClassificationView.swift in Sources */,
+				00F1230D27B93F0800FC296E /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,9 +352,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlf.Vegetables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -346,9 +376,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlf.Vegetables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
