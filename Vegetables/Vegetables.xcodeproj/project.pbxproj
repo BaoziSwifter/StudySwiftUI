@@ -21,6 +21,9 @@
 		00F2094B2793CEA20049623E /* VegetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2094A2793CEA20049623E /* VegetableModel.swift */; };
 		00F2094E2793CF090049623E /* VegetableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2094D2793CF090049623E /* VegetableCardView.swift */; };
 		00F209502793D0D80049623E /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2094F2793D0D80049623E /* StartButtonView.swift */; };
+		7D9DC85927B9ECEB005D8635 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9DC85827B9ECEB005D8635 /* SettingsView.swift */; };
+		7D9DC85B27B9F2F9005D8635 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9DC85A27B9F2F9005D8635 /* SettingsLabelView.swift */; };
+		7D9DC85D27B9F70C005D8635 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9DC85C27B9F70C005D8635 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		00F2094A2793CEA20049623E /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableModel.swift; sourceTree = "<group>"; };
 		00F2094D2793CF090049623E /* VegetableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCardView.swift; sourceTree = "<group>"; };
 		00F2094F2793D0D80049623E /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		7D9DC85827B9ECEB005D8635 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7D9DC85A27B9F2F9005D8635 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		7D9DC85C27B9F70C005D8635 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 				00F209392793CD4F0049623E /* ContentView.swift */,
 				00F1230C27B93F0800FC296E /* OnboardingView.swift */,
 				00F1231027B946DB00FC296E /* VegetableDetailView.swift */,
+				7D9DC85827B9ECEB005D8635 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -127,6 +134,8 @@
 				00F1231227B948F500FC296E /* VegetableHeaderView.swift */,
 				00F1231427B94D3500FC296E /* SourceLinkView.swift */,
 				00F1231627B94E5300FC296E /* VegetableClassificationView.swift */,
+				7D9DC85A27B9F2F9005D8635 /* SettingsLabelView.swift */,
+				7D9DC85C27B9F70C005D8635 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +211,7 @@
 			files = (
 				00F209482793CE600049623E /* VegetablesData.swift in Sources */,
 				00F1231527B94D3500FC296E /* SourceLinkView.swift in Sources */,
+				7D9DC85D27B9F70C005D8635 /* SettingsRowView.swift in Sources */,
 				00F2093A2793CD4F0049623E /* ContentView.swift in Sources */,
 				00F209382793CD4F0049623E /* VegetablesApp.swift in Sources */,
 				00F1230F27B9441E00FC296E /* VegetableRowView.swift in Sources */,
@@ -210,8 +220,10 @@
 				00F2094E2793CF090049623E /* VegetableCardView.swift in Sources */,
 				00F1231327B948F500FC296E /* VegetableHeaderView.swift in Sources */,
 				00F1231127B946DB00FC296E /* VegetableDetailView.swift in Sources */,
+				7D9DC85B27B9F2F9005D8635 /* SettingsLabelView.swift in Sources */,
 				00F1231727B94E5300FC296E /* VegetableClassificationView.swift in Sources */,
 				00F1230D27B93F0800FC296E /* OnboardingView.swift in Sources */,
+				7D9DC85927B9ECEB005D8635 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
